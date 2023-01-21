@@ -10,6 +10,7 @@
         "laravel/framework": "^9.19",
         "laravel/jetstream": "^2.16",
         "laravel/sanctum": "^3.0",
+        "laravel/telescope": "^4.12",
         "laravel/tinker": "^2.7",
         "livewire/livewire": "^2.5",
         "stancl/tenancy": "dev-master"
@@ -65,7 +66,7 @@
     },
     "repositories": [{
         "type": "path",
-        "url": "./v4"
+        "url": "../v4"
     }],
     "minimum-stability": "dev",
     "prefer-stable": true

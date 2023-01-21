@@ -23,7 +23,7 @@ class DatabaseSeeder extends Seeder
         $tenant1->domains()->create(['domain' => 'bar']);
 
         $tenant1->run(function (){
-            User::factory()->count(5)->create();
+            User::factory()->count(1)->create();
         });
     }
 }
